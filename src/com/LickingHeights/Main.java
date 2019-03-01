@@ -13,22 +13,34 @@ public class Main {
         System.out.println("What is your name?");
         String name = input.nextLine();
         prints(name);
-        multiply(7, 6); }
+        multiply(7, 6);
+        Divide(18,23);
+    }
 
-        public static void println() {
+    public static void println() {
         System.out.println("Hello World");
     }
+
     public static void prints(String name) {
         //declare
         System.out.println("hello " + name);
     }
+
     public static int multiply(int A, int B) {
         System.out.println("7x6= " + A * B);
-        return A;
+        return A;   }
+
+    public static double Divide(double a , double b) {
+        System.out.print("18/23= "+a / b);
+        return a;
+    }
+    {
 
 
-
+    }
 }
+
+
 
 
 
