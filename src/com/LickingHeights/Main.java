@@ -14,7 +14,8 @@ public class Main {
         String name = input.nextLine();
         prints(name);
         multiply(7, 6);
-        Divide(18,23);
+        Divide(18, 23);
+       System.out.println( "\nThe Bigger Number Is "+Biggest(31.83357, 3.12314));
     }
 
     public static void println() {
@@ -28,17 +29,38 @@ public class Main {
 
     public static int multiply(int A, int B) {
         System.out.println("7x6= " + A * B);
-        return A;   }
+        return B;
+    }
 
-    public static double Divide(double a , double b) {
-        System.out.print("18/23= "+a / b);
+    public static double Divide(double a, double b) {
+        System.out.print("18/23= " + a / b);
         return a;
     }
-    {
+
+    public static double Biggest(double a, double b) {
+        {    if (a > b && b != a) {
+                return a;
+                } else if(b > a && a != b) {
+                return b;
+            }else if(b == a){return 0;
+            }
+        }
 
 
+        return a;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
