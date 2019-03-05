@@ -9,6 +9,8 @@ public class Main {
         Scanner input;
         //initializing
         input = new Scanner(System.in);
+        String Two = "can";
+        String one = "we";
         println();
         System.out.println("What is your name?");
         String name = input.nextLine();
@@ -16,7 +18,9 @@ public class Main {
         multiply(7, 6);
         Divide(18, 23);
        System.out.println( "\nThe Bigger Number Is "+Biggest(31.83357, 3.12314));
-    }
+       System.out.println(reverse("we","can"));
+
+}
 
     public static void println() {
         System.out.println("Hello World");
@@ -49,7 +53,19 @@ public class Main {
 
         return a;
     }
+    public static String reverse(String Two, String One){
+        System.out.println(One);return Two;
+
+
+
+        }
+
+
 }
+
+
+
+
 
 
 
